@@ -1,0 +1,9 @@
+name: TradeCommander
+main: rc2k7.plugins.tradecommander.TradeCommander
+version: 0.1
+author: RC2K7
+description: This is a RollingAPI.
+
+commands:
+  tc:
+    description: Main Menu

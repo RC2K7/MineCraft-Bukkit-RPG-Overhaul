@@ -1,0 +1,12 @@
+name: RPGStats
+main: rc2k7.plugins.rpgstats.RPGStats
+version: 0.1
+author: RC2K7
+description: Bank Manager Plugin Designed By RC2K7
+softdepend: [EpicBossRecoded]
+
+commands:
+  test:
+    description: Hello Test
+    usage: </command>
+  rpgstats:

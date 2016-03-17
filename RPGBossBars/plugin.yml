@@ -1,0 +1,12 @@
+name: RPGBossBars
+main: RC2K7.Plugins.RPGBossBars.RPGBossBars
+version: 0.1
+author: RC2K7
+description: Shows Boss Health Bars
+depend: [EpicBossRecoded]
+
+commands:
+  bossbar:
+    description: BossBar Menu
+    usage: </command> <add|remove|reload> <Name_Otional Use '_'>
+    aliases: [BhB]

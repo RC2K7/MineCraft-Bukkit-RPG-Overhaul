@@ -1,0 +1,26 @@
+Levels:
+  '1':
+    ItemIDs:
+    - 276:1-270:Sword,Dagger,Blade:USE
+    Amount: 1-2
+    Group:
+      Lore:
+        Tank:
+        - Dmg:200-300:400-500:100
+        - Health:200-300:50
+        Healer:
+        - Health:150-160:80
+        DPS:
+        - Dmg:20-25:30-35:60
+      Prefix:
+        Tank:
+        - Solid Stone:Health
+      Suffix:
+        Tank:
+        - Of Might:Dmg
+Bosses:
+  TestBoss:
+    LootLevelList: 1,100
+    Weapons:
+    - ID@267;NAME@Pigs Liver Sticker;LORE@ReqLvl:1,Dmg:3-6,CritChance:5,CritMult:2,CritMult:2,Health:11,Armor:40;CHANCE@20;ROLL@USE
+    - ID@267;NAME@Pigs Gutter;LORE@ReqLvl:1,Dmg:3-6,CritChance:5,CritMult:2,CritMult:2,Health:11,Armor:40;CHANCE@20;ROLL@USE

@@ -1,0 +1,10 @@
+name: RPGTeleport
+main: RC2K7.Plugins.RPGTeleport.RPGTeleport
+version: 0.1
+author: RC2K7
+description: Teleporting Plugin
+
+commands:
+  rpgtp:
+    description: Hello Test
+    usage: </command>

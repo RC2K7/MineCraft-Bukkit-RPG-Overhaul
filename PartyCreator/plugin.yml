@@ -1,0 +1,23 @@
+name: PartyCreator
+main: rc2k7.plugins.partycreator.PartyCreator
+version: 0.5
+author: RC2K7
+description: Party Plugin Designed By RC2K7
+softdepend: [RollerCore]
+
+commands:
+  party:
+    description: Party Command Central
+    usage: /<command> <invite|kick|accept|deny|leave|chat>
+    aliases: [pc]
+  pcc:
+    description: Party Chat
+    usage: /<command> TEXT
+    
+permissions:
+  rc2k7.partycreator.invite:
+    description: Allows party invitations.
+    default: op
+  rc2k7.partycreator.summon:
+    description: Allows Party Leader To Teleport Members
+    default: op

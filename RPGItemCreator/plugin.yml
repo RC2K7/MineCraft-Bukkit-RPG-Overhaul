@@ -1,0 +1,12 @@
+name: RPGItemCreator
+main: rc2k7.plugins.rpgitemcreator.RPGItemCreator
+version: 0.1
+author: RC2K7
+description: Bank Manager Plugin Designed By RC2K7
+softdepend: [EpicBossRecoded,Soulbound]
+
+commands:
+  rpgitemcreator:
+    description: Hello Test
+    usage: </command>
+    aliases: [ric]

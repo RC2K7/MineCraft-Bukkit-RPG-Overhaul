@@ -1,0 +1,12 @@
+name: RPGQuest
+main: RC2K7.Plugins.RPGQuest.RPGQuest
+version: 0.1
+author: RC2K7
+description: Bank Manager Plugin Designed By RC2K7
+depend: [RPGAPI]
+
+commands:
+  rpgq:
+    description: Hello Test
+  mc:
+    description: Testing

@@ -1,0 +1,28 @@
+name: BankManager
+main: rc2k7.plugins.bankmanager.BankManager
+version: 0.1
+author: RC2K7
+description: Bank Manager Plugin Designed By RC2K7
+softdepend: [WorldGuard]
+
+commands:
+  bank:
+    description: Open Bank
+    usage: /<command> <bank>
+    
+permissions:
+  rc2k7.bankmanager.1row:
+    description: Bank Has 1 Row
+    default: true
+  rc2k7.bankmanager.2row:
+    description: Bank Has 2 Row
+    default: false
+  rc2k7.bankmanager.3row:
+    description: Bank Has 3 Row
+    default: false
+  rc2k7.bankmanager.4row:
+    description: Bank Has 4 Row
+    default: false
+  rc2k7.bankmanager.5row:
+    description: Bank Has 5 Row
+    default: op

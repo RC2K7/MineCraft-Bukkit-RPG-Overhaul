@@ -1,0 +1,4 @@
+ShowBossHealthBars: true
+ShowOnAllBosses: true
+Bosses:
+  - TestBoss

@@ -1,0 +1,32 @@
+<project default="clean" name="RC2K7 Ant Compiler">
+
+  <property name="pluginname" value="RPGAPI"/>
+  <property name="bukkit.jar" location="C:\Users\RC2K7\Desktop\Server\craftbukkit-1.5.1-R0.2-20130412.213742-12.jar"/>
+  <!--<property name="fmlserver.jar" location="C:\Users\RC2K7\Desktop\MC-APIs\minecraft-server-fml-1.5.1.jar"/>-->
+  <property name="temp" location="temp"/>
+  <property name="dist" location="C:\Users\RC2K7\Desktop\Server\plugins\"/>
+
+  <target name="compile">
+    <mkdir dir="${temp}"/>
+    <javac debug="true" srcdir="./src" destdir="${temp}">
+      <classpath>
+        <pathelement location="${bukkit.jar}"/>
+      	<pathelement location="C:\Users\RC2K7\Desktop\Server\plugins\worldguard-5.7.3.jar"/>
+      	<pathelement location="C:\Users\RC2K7\Desktop\Server\plugins\worldedit-5.5.5.jar"/>
+      	<!--<pathelement location="${fmlserver.jar}"/>-->
+      </classpath>
+    </javac>
+  </target>
+  
+  <target name="dist" depends="compile">
+    <jar jarfile="${dist}/${pluginname}.jar">
+      <fileset dir="${temp}"/>
+      <fileset file="plugin.yml"/>
+    </jar>
+  </target>
+  
+  <target name="clean" depends="dist">
+    <delete dir="${temp}"/>
+  </target>
+  
+</project>

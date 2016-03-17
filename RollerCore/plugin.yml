@@ -1,0 +1,5 @@
+name: RollerCore
+main: rc2k7.plugins.rollercore.RollerCore
+version: 0.1
+author: RC2K7
+description: This is a RollingAPI.

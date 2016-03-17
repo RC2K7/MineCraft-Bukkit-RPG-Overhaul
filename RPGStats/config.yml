@@ -1,0 +1,17 @@
+Level:
+  Levels: 
+  - 1
+  - 2
+  - 3
+  ExperienceNeeded:
+  - 0
+  - 100
+  - 200
+  Health:
+  - 20
+  - 40
+  - 80
+  BaseDamages:
+  - 10
+  - 20
+  - 30

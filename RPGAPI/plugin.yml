@@ -1,0 +1,6 @@
+name: RPGAPI
+main: RC2K7.Plugins.RPGAPI.RPGAPI
+version: 0.1
+author: RC2K7
+description: Bank Manager Plugin Designed By RC2K7
+depend: [WorldGuard]

@@ -1,0 +1,4 @@
+#Default Configuartion For TradeCommander.
+onlyLocalTrades: true
+TradeDistance: 10
+inviteTimeOut: 15
